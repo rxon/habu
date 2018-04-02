@@ -1,0 +1,13 @@
+# build output
+public/bundle.js
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# other
+sessions.db
+.env
