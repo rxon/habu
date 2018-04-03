@@ -2,7 +2,7 @@ const devip = require('dev-ip');
 const qrcode = require('qrcode-terminal');
 
 module.exports = port => {
-  if (typeof port === 'undefined') console.log('');
+  if (typeof port === 'undefined') throw 'Define port argument';
   const externalUrl = `http://${devip()[0]}:${port}`;
   const cyan = '\u001b[36m';
   const reset = '\u001b[0m';

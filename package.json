@@ -1,7 +1,7 @@
 {
   "name": "@rxon/habu",
   "version": "1.0.1",
-  "description": "",
+  "description": "Node.jsで自前サーバーを立てながらフロントエンドを開発する時にexternal urlとそのQRコードをconsole.logしてサクッとモバイルからアクセスできるようにするライブラリ",
   "main": "index.js",
   "dependencies": {
     "dev-ip": "^1.0.1",
